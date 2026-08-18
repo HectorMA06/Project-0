@@ -32,9 +32,8 @@ body{
     grid-template-rows: repeat(6,auto);
     gap: 7px;
     width: 500px;
-
-
 }
+
 .title{
     color: white;
     grid-column: 1 / 7;
@@ -74,4 +73,26 @@ body{
 
 .item3:hover {
     border: 1px solid white;
+}
+
+.label{
+    color: #4D5156;
+    grid-column: 1 / 7;
+    padding: 10px;
+    font-size: 15px;
+    font-family: "Google Sans Flex", sans-serif;
+    font-weight: bold;
+
+}
+
+#info { 
+    font-size: 25px;
+}
+
+.item4 {
+    grid-column: 3/5;
+    background-color: #22242A;
+    color: white;
+    border-radius: 5px;
+    font-family: "Google Sans Flex", sans-serif;
 }
