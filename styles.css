@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #22242A;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(6,auto);
+    gap: 7px;
+    width: 500px;
+
+
+}
+
+.item1{
+    grid-column: 1 / 7;
+    background-color: #4D5156;
+    border-radius: 20px;
+    padding: 10px 15px;
+    color: white;
+    border: 1px solid #4D5156;
+    
+}
+
+.item2 { 
+    grid-column: 2/4;
+    background-color: #22242A;
+    color: white;
+    border-radius: 5px;
+}
+
+.item3 {
+    grid-column: 4/6;
+    background-color: #22242A;
+    color: white;
+    border-radius: 5px;
+}
+
+.item2:hover {
+    border: 1px solid white;
+}
+
+.item3:hover {
+    border: 1px solid white;
+}
